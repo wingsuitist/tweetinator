@@ -1,0 +1,12 @@
+{
+    "name": "wingsuitist/tweetinator",
+    "description": "Send tweets from a file. Add this to your crontab andd fill your twitter queue.",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Jonas Felix",
+            "email": "jonas.felix@felixideas.com"
+        }
+    ],
+    "require": {}
+}
