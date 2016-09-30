@@ -1,6 +1,7 @@
 # composer
 mposer.phar
 vendor/
+composer.lock
 
 # netbeans
 nbproject/private/
