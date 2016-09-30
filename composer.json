@@ -1,12 +1,20 @@
 {
     "name": "wingsuitist/tweetinator",
-    "description": "Send tweets from a file. Add this to your crontab andd fill your twitter queue.",
-    "license": "GPLv3",
+    "description": "Send tweets from a file. Add this to your crontab and fill your twitter queue.",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Jonas Felix",
-            "email": "jonas.felix@felixideas.com"
+            "email": "jonas.felix@felixideas.ch"
         }
     ],
-    "require": {}
+  	"autoload": {
+  		"psr-4": {
+  			"Wingsuitist\\Tweetinator\\": ["src/"]
+  		}
+  	},
+    "require": {
+        "endroid/twitter": "^1.2"
+    }
 }
