@@ -4,7 +4,7 @@ Sending tweets automatically.
 
 ## Usage
 
-php tweetinator.php 
+php tweetinator.php conf.json
 
 ## User Story
 
